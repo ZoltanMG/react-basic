@@ -6,6 +6,7 @@ function App() {
   const [primerNumero, setPrimerNumero] = useState(0)
   const [segundoNumero, setSegundoNumero] = useState(0)
   const [edad, setEdad] = useState(false)
+  const [paroimpar, setParoimpar]=useState(false)
 
   
   const validadorDeEdad = (numero) => {
@@ -16,8 +17,16 @@ function App() {
     }
   }
   //---------------------------------------
-
+  const ParImpares = (numero) => {
+  
+    if (numero ) {
+      setParoimpar(false)
+    } else  {
+      setParoimpar(true)
+    }
+  }
   return (
+    
     <div className="App">
       <h1>Suma de numeros</h1>
       <input type="number" onChange={evento => setPrimerNumero(parseInt(evento.target.value))}/>
@@ -31,9 +40,14 @@ function App() {
       <p>es menor de edad</p>}
       <p>-----------------------------------------------</p>
 
+      <h1>Es Par o Impar?:</h1>
+      <input type="number" onChange={evento => ParImpares(parseInt(evento.target.value))}/>
+
+      {paroimpar === true ?
+         <p>Es par</p> :
+         <p>Es impar</p>}  
 
     </div>
   );
 }
-
 export default App;
