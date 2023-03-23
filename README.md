@@ -1,8 +1,9 @@
-- Instalar nodeJs
+- Instalar nodeJs - Ok
 - Crear proyecto en react:
-    - subirlo a github
-    - imputs
-    - variables
+    - subirlo a github - Ok
+    - comandos git - Ok
+    - imputs - Ok
+    - variables - Ok
     - estructura de datos
     - condicionales
     - bucles
@@ -10,8 +11,6 @@
 
 - ejercicios:
     - programa para numero pares e impares
-    - programa que muestra los años bisiestos hasta el año 2.100
-    - diferencia entre == y ===
 
 ----------------------------------------------------------
 node - Lenguaje es basado en java JavaScript
@@ -25,8 +24,25 @@ npm - gestor de paquetes
     - git clone url: para descargar el repositorio
     - git pull origin main: bajar los nuevos cambios
 
-- ReactJS es un framework de JavaScript - Angular:
+- React (es un framework de JavaScript):
     - para crear un proyecto: npx create-react-app my-app - solo se hace una vez
     - los comandos de react:
-        - npm start
+        - npm start : ejecutar su pagina web
         - control + c: mata la ejecucion
+        - existen 2 tipos de variables:
+            - let : puede cambiarle el valor cuando ud quiera
+            - const : solo tiene un valor
+        - tipos de datos:
+            - string : letras
+            - number : numeros enteros
+            - float : decimales
+            - buleanos : true o false
+        - condicionales : if
+        - operadores: 
+            - * : multiplicacion
+            - / : divicion
+            - % : modulo - reciduo de de divicion
+            - === : igual a
+            - !== : diferente de
+            - > : mayor que
+            - < : menor que
