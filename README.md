@@ -23,6 +23,7 @@ npm - gestor de paquetes
     - git push orign main : esto va a subir los cambios a GitHub (nube)
     - git clone url: para descargar el repositorio
     - git pull origin main: bajar los nuevos cambios
+    - git log : puede ver el hisotrial en local
 
 - React (es un framework de JavaScript):
     - para crear un proyecto: npx create-react-app my-app - solo se hace una vez
