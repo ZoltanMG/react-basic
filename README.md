@@ -21,7 +21,9 @@ npm - gestor de paquetes
     - git status . : para mirar el estado de los archivos
     - git add . : va a especificar que archivos va a guardar los cambios
     - git commit -m "un mensaje" : esto guarda y deja un mensaje del cambio realizado
-    - git push orign master : esto va a subir los cambios a GitHub (nube)
+    - git push orign main : esto va a subir los cambios a GitHub (nube)
+    - git clone url: para descargar el repositorio
+    - git pull origin main: bajar los nuevos cambios
 
 - ReactJS es un framework de JavaScript - Angular:
     - para crear un proyecto: npx create-react-app my-app - solo se hace una vez
